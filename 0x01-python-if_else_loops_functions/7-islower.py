@@ -1,7 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3`
 def islower(c):
-      """Print a string in lowercase."""
-if ord(c) >= 97 and ord(c) <= 122:
-    return True
-else:
-    return False
+    # Check if the ASCII value of c is within the range of lowercase letters
+    return ord('a') <= ord(c) <= ord('z')
